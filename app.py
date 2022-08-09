@@ -84,5 +84,5 @@ def predict():
       return render_template('index.html', prediction_text='The Person is not excited', extra_text ="as per Prediction by " + Model)
 
 if __name__=="__main__"
-app.run()
+app.run(debug=True)
 
